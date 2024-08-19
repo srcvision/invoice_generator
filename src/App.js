@@ -10,16 +10,16 @@ import ReactToPrint from "react-to-print";
 
 function App() {
   const [showInvoice, setShowInvoice] = useState(false);
-  const [name, setName] = useState("Saurav Chaudhari");
-  const [address, setAddress] = useState("Vejalpur,Ahmedabad");
-  const [mobile, SetMobile] = useState("6353307410");
+  const [name, setName] = useState("John Doe");
+  const [address, setAddress] = useState("new york,USA");
+  const [mobile, SetMobile] = useState("6353123453");
 
   const [shopName, setShopName] = useState("Amezon");
   const [shopDes, setShopDes] = useState(
     "Mobiles, Electronics, Grocery, Fashion, Home & Kitchen"
   );
   const [shopAdd, SetShopAdd] = useState(
-    "5/37A Near SBI Bank Ahmedabad, 441108"
+    "5/37A Near time Squre New York, 441108"
   );
   const [notes, setNotes] = useState(
     "Thank you for shopping with us! Each order means the world to us, and we’re so happy you chose our small business today."
